@@ -80,12 +80,13 @@
         <div class="container">
             <h2>Contact Us</h2>
             <p>Have a project in mind? Let's work together!</p>
-            <form action="send_email.php" method="post" class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <form action="https://formspree.io/f/YOUR_FORM_ENDPOINT" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+
         </div>
     </section>
 
